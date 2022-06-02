@@ -8,7 +8,7 @@ function auto_refresh()
     if (perc > 100) {
         perc = "100";
     } else {
-        perc = perc.toFixed(64);
+        perc = perc.toFixed(10);
     }
     textBox.innerHTML = perc + "%";
     setTimeout(auto_refresh, 1);
