@@ -1,0 +1,17 @@
+#center {
+    text-align: center;
+    justify-content: center;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+}
+
+#update {
+    font-size: 80px;
+    margin-bottom: -10px;
+}
+
+#sub {
+    font-size: 40px;
+}
